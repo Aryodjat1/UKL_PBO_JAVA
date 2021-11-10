@@ -26,6 +26,10 @@ import java.util.ArrayList;
 
         public void prosesPeminjaman(Siswa siswa, Peminjaman peminjaman, Buku buku) {
             Scanner myObj = new Scanner(System.in);
+            
+            //info untuk keluar
+            System.out.println("Ketikan '99' untuk keluar dari menu");
+            
             System.out.println("Silahkan Meminjam Buku");
             System.out.println("Masukkan ID Member");
             int idSiswa = myObj.nextInt();
